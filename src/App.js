@@ -1,11 +1,22 @@
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
+import { FloralCandleSoul } from "./components/FloralCandleSoul/FloralCandleSoul";
+import { LumiBlossomos } from "./components/LumiBlossomos/LumiBlossomos";
+import { LumiCandle } from "./components/LumiCandle/LumiCandle";
 import { Navbar } from "./components/Navbar/Navbar";
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-    </div>
+    <Router>
+      <div>
+        <Navbar />
+        <Routes>
+          <Route path="/lumiblossomos" element={<LumiBlossomos />} />
+          <Route path="/floralcandlesoul" element={<FloralCandleSoul />} />
+          <Route path="/lumicandle" element={<LumiCandle />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
