@@ -1,5 +1,6 @@
 import s from "./Header.module.css";
 import account from "../Header/images/account.png";
+import bag from "../Header/images/bag.png";
 
 export const Header = () => {
   return (
@@ -15,6 +16,7 @@ export const Header = () => {
         <p>account</p>
       </div>
       <div>
+        <img src={bag} alt="shopping bag" />
         <p>bag</p>
       </div>
     </div>

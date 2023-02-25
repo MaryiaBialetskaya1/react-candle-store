@@ -1,3 +1,6 @@
 .container {
   background-color: #4f606a;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
