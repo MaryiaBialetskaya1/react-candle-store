@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
 import { FloralCandleSoul } from "./components/FloralCandleSoul/FloralCandleSoul";
+import { Header } from "./components/Header/Header";
 import { Home } from "./components/Home/Home";
 import { LumiBlossomos } from "./components/LumiBlossomos/LumiBlossomos";
 import { LumiCandle } from "./components/LumiCandle/LumiCandle";
@@ -11,6 +12,7 @@ function App() {
     <Router>
       <div>
         <Navbar />
+        <Header />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/lumiblossomos" element={<LumiBlossomos />} />
@@ -23,9 +25,3 @@ function App() {
 }
 
 export default App;
-
-{
-  /* <h1>moonbloom</h1>
-<h1>Candlearia</h1>
-<h1>SerenityCandle</h1> */
-}
