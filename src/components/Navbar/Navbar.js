@@ -1,12 +1,41 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+import s from "./Navbar.module.css";
 
 export const Navbar = () => {
   return (
-    <div>
-      <Link to="/">Home</Link>
-      <Link to="lumiblossomos">LumiBlossomos</Link>
-      <Link to="floralcandlesoul">FloralCandleSoul</Link>
-      <Link to="lumicandle">LumiCandle</Link>
+    <div className={s.container}>
+      <div className={`${s.item} ${s.active}`}>
+        <NavLink
+          to="/"
+          className={(navData) => (navData.isActive ? s.active : s.item)}
+        >
+          Home
+        </NavLink>
+      </div>
+      <div className={s.item}>
+        <NavLink
+          to="lumiblossomos"
+          className={(navData) => (navData.isActive ? s.active : s.item)}
+        >
+          Lumi Blossomos
+        </NavLink>
+      </div>
+      <div className={s.item}>
+        <NavLink
+          to="floralcandlesoul"
+          className={(navData) => (navData.isActive ? s.active : s.item)}
+        >
+          Floral Candle Soul
+        </NavLink>
+      </div>
+      <div className={s.item}>
+        <NavLink
+          to="lumicandle"
+          className={(navData) => (navData.isActive ? s.active : s.item)}
+        >
+          Lumi Candle
+        </NavLink>
+      </div>
     </div>
   );
 };
