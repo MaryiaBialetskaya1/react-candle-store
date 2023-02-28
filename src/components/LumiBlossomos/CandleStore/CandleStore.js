@@ -4,16 +4,13 @@ export const CandlesStore = ({ candlesStore }) => {
   return (
     <div className={s.body}>
       {candlesStore.map((item) => {
-        const { id, img, price } = item;
+        const { id, img, price, description } = item;
         return (
           <div className={s.container} key={id}>
             <div className={s.wrapper}>
               <img src={img} alt="candles" width="400px" height="500px" />
               <h1> {price}</h1>
-              <p>
-                Lorem ipsum dolor sit amet, <br />
-                consectetur adipiscing elit.
-              </p>
+              <p>{description}</p>
             </div>
             <div className={s.buttonWrapper}>
               <button className={`${s.btn} ${s.outline}`}>DETAILS</button>
