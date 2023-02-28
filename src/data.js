@@ -4,6 +4,7 @@ export const data = [
     searchNameTerm: "unscented",
     img: "https://images.unsplash.com/photo-1607713109008-d00372938c2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
     price: "$10.99",
+    name: "",
   },
   {
     id: 2,
