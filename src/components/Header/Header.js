@@ -9,7 +9,7 @@ export const Header = () => {
         <h1 className={s.pageHeader}>Candlearia Store</h1>
       </div>
       <div className={s.flexItem}>
-        <input type="text" placeholder="Serch" />
+        <input className={s.formInput} type="text" placeholder="Search" />
       </div>
       <div className={s.flexItem}>
         <div className={s.box}>
