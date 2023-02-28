@@ -2,7 +2,7 @@ import s from "./CandleStore.module.css";
 
 export const CandlesStore = ({ candlesStore }) => {
   return (
-    <div>
+    <div className={s.body}>
       {candlesStore.map((item) => {
         const { id, img, price } = item;
         return (
