@@ -1,4 +1,6 @@
 import mainImage from "../LumiBlossomos/images/mainimage.jpg";
+import { CandlesStore } from "./CandleStore/CandleStore";
+import { FilterButtons } from "./FilterButtons/FilterButtons";
 import s from "./LumiBlossomos.module.css";
 
 export const LumiBlossomos = () => {
@@ -13,6 +15,8 @@ export const LumiBlossomos = () => {
           from, your home will be ready to welcome the season.
         </h3>
       </div>
+      <FilterButtons />
+      <CandlesStore />
     </div>
   );
 };
