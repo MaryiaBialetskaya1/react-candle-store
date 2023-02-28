@@ -8,7 +8,6 @@ export const CandlesStore = ({ candlesStore }) => {
         return (
           <div className={s.container} key={id}>
             <div className={s.wrapper}>
-              <div className={s.bannerImage}> </div>
               <img src={img} alt="candles" width="400px" height="500px" />
               <h1> {price}</h1>
               <p>
