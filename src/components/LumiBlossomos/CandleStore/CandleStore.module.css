@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
 
 .body {
   background: rgb(0, 212, 255);
@@ -8,7 +9,6 @@
     rgba(0, 212, 255, 1) 0%,
     rgba(11, 3, 45, 1) 100%
   );
-  /* background-image: url(https://images.unsplash.com/photo-1619204715997-1367fe5812f1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1889&q=80); */
   background-image: url(https://images.unsplash.com/photo-1676678873699-0e5f4493910f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDgyfENEd3V3WEpBYkV3fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=800&q=60);
   background-size: cover;
   background-position: center;
@@ -18,9 +18,7 @@
   justify-content: center;
   gap: 10px 20px;
   padding: 50px 0;
-  /* height: 100vh; */
 }
-
 .container {
   backdrop-filter: blur(16px) saturate(180%);
   -webkit-backdrop-filter: blur(16px) saturate(180%);
@@ -35,12 +33,10 @@
   justify-content: center;
   text-align: center;
 }
-
 .wrapper {
   width: 100%;
   height: 100%;
 }
-
 h1 {
   font-family: "Righteous", sans-serif;
   color: rgba(255, 255, 255, 0.98);
@@ -95,4 +91,7 @@ p {
   border-color: rgba(255, 255, 255, 0.9);
   filter: drop-shadow(0 10px 5px rgba(0, 0, 0, 0.125));
   transition: all 0.3s ease;
+}
+.section {
+  margin: 100px 0;
 }

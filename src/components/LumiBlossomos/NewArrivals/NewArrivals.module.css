@@ -1,0 +1,12 @@
+h2 {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 2.4rem;
+}
+
+.img {
+  width: 400px;
+  height: 400px;
+  object-position: center;
+  object-fit: cover;
+}

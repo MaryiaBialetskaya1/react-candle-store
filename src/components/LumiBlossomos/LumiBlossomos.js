@@ -4,6 +4,7 @@ import { FilterButtons } from "./FilterButtons/FilterButtons";
 import s from "./LumiBlossomos.module.css";
 import { data } from "../../data";
 import { useState } from "react";
+import { NewArrivals } from "./NewArrivals/NewArrivals";
 
 export const LumiBlossomos = () => {
   const [store, setStore] = useState(data);
@@ -28,6 +29,7 @@ export const LumiBlossomos = () => {
       </div>
       <FilterButtons filter={onFilter} />
       <CandlesStore candlesStore={store} />
+      <NewArrivals />
     </div>
   );
 };
