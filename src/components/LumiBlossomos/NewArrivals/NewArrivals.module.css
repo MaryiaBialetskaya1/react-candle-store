@@ -10,3 +10,10 @@ h2 {
   object-position: center;
   object-fit: cover;
 }
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: calc(5vh + 50px) calc(5vw + 50px);
+}
