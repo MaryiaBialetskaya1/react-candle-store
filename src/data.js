@@ -1,3 +1,6 @@
+import image01 from "./components/LumiBlossomos/images/image01.jpg";
+import image02 from "./components/LumiBlossomos/images/image02.jpg";
+
 export const data = [
   {
     id: 1,
@@ -60,13 +63,13 @@ export const data = [
 export const newArrivals = [
   {
     id: 1,
-    img: "https://images.unsplash.com/photo-1609972815868-9676b35b648e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjQ1fHxjYW5kbGV8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60",
+    img: image01,
     description: "Easter scent is coming!",
     par: "We’ve got the right fragrances for the every day.",
   },
   {
     id: 2,
-    img: "https://images.unsplash.com/photo-1609972815868-9676b35b648e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjQ1fHxjYW5kbGV8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60",
+    img: image02,
     description: "Be the first to know!",
     par: "Members get discount and early access to our new Scents.",
   },
