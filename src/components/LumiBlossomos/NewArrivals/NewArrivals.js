@@ -10,20 +10,20 @@ export const NewArrivals = ({ newArrivals }) => {
         <img className={s.mainImage} src={image00} alt="flower" />
       </div>
       <h2>There’s plenty more to look forward to!</h2>
-      {newArrivals.map((item) => {
-        const { id, img, description, par } = item;
-        return (
-          <div key={id}>
-            <div className={s.container}>
+      <div className={s.container}>
+        {newArrivals.map((item) => {
+          const { id, img, description, par } = item;
+          return (
+            <div key={id}>
               <div className={s.imageContainer}>
                 <img className={s.img} src={img} alt="flower" />
                 <h4>{description}</h4>
                 <h5>{par}</h5>
               </div>
             </div>
-          </div>
-        );
-      })}
+          );
+        })}
+      </div>
     </div>
   );
 };
