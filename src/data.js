@@ -57,7 +57,7 @@ export const data = [
   },
 ];
 
-export const NewArrivals = [
+export const newArrivals = [
   {
     id: 1,
     img: "https://images.unsplash.com/photo-1609972815868-9676b35b648e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjQ1fHxjYW5kbGV8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60",

@@ -3,11 +3,13 @@ import { CandlesStore } from "./CandleStore/CandleStore";
 import { FilterButtons } from "./FilterButtons/FilterButtons";
 import s from "./LumiBlossomos.module.css";
 import { data } from "../../data";
+import { newArrivals } from "../../data";
 import { useState } from "react";
 import { NewArrivals } from "./NewArrivals/NewArrivals";
 
 export const LumiBlossomos = () => {
   const [store, setStore] = useState(data);
+  const [arrivals, setArrival] = useState(newArrivals);
 
   const onFilter = (searchNameTerm) => {
     const newArrayOfFilteredItems = data.filter(
@@ -29,7 +31,7 @@ export const LumiBlossomos = () => {
       </div>
       <FilterButtons filter={onFilter} />
       <CandlesStore candlesStore={store} />
-      <NewArrivals />
+      <NewArrivals newArrivals={arrivals} />
     </div>
   );
 };
