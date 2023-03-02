@@ -9,7 +9,7 @@ export const NewArrivals = ({ newArrivals }) => {
       <div className={s.headerContainer}>
         <h2 className={s.headerOne}>JOIN THE COLLECTIVE</h2>
         <h2>#CANDLEARIASTORE</h2>
-        <h2>@CANDLEARIASTOREVIBES</h2>
+        <h2 className={s.headerThree}>@CANDLEARIASTOREVIBES</h2>
       </div>
       <div>
         <img className={s.mainImage} src={image00} alt="flower" />

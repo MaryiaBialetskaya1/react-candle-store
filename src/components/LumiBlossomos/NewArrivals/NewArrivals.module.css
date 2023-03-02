@@ -57,7 +57,6 @@ h2 {
     border-color: #000;
   }
 }
-
 @keyframes typing {
   0% {
     width: 0ch;
@@ -74,4 +73,12 @@ h2 {
   100% {
     width: 0ch;
   }
+}
+.headerThree {
+  font-size: 4.5rem;
+  font-weight: 600;
+  background-image: linear-gradient(to bottom, #553c9a, #b393d3);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
 }
