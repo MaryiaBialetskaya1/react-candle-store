@@ -20,7 +20,7 @@ export const LumiBlossomos = () => {
 
   return (
     <div>
-      <div>
+      <div className={s.imageContainer}>
         <img className={s.mainImage} src={mainImage} alt="mainimage" />
       </div>
       <div className={s.headerContainer}>
