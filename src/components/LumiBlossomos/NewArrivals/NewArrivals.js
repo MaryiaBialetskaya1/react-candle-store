@@ -6,6 +6,11 @@ import image00 from "../images/image00.jpg";
 export const NewArrivals = ({ newArrivals }) => {
   return (
     <div>
+      <div className={s.headerContainer}>
+        <h2 className={s.headerOne}>JOIN THE COLLECTIVE</h2>
+        <h2>#CANDLEARIASTORE</h2>
+        <h2>@CANDLEARIASTOREVIBES</h2>
+      </div>
       <div>
         <img className={s.mainImage} src={image00} alt="flower" />
       </div>
