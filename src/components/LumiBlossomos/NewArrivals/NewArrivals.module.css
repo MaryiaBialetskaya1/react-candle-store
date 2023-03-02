@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
 
 h2 {
   font-family: "Roboto", sans-serif;
@@ -8,16 +9,32 @@ h2 {
 }
 .img {
   width: 500px;
-  height: 400px;
+  height: 600px;
   object-position: center;
   object-fit: cover;
+  -webkit-filter: brightness(50%);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+.img:hover {
+  -webkit-filter: brightness(100%);
+  box-shadow: 1px 1px #6e85b7, 2px 2px #6e85b7, 3px 3px #6e85b7, 4px 4px #6e85b7,
+    5px 5px #6e85b7, 6px 6px #6e85b7;
+  -webkit-transform: translateX(-3px);
+  transform: translateX(-3px);
+  transition: 0.5s ease;
 }
 .container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 30px;
+  gap: 50px;
+  width: 100%;
+  height: 80vh;
 }
 .mainImage {
   margin: 50px 0;
@@ -28,7 +45,7 @@ h2 {
 }
 .headerContainer {
   width: 100%;
-  height: 80vh;
+  height: 70vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -88,4 +105,41 @@ h2 {
   color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
+}
+.headerFour {
+  font-family: "Lato", sans-serif;
+  color: #6e85b7;
+  font-size: 3rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.par {
+  font-family: "Lato", sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 20px 200px;
+  color: #06283d;
+}
+.imageContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px 20px;
+  padding: 50px 0;
+}
+.description {
+  font-family: "Righteous", sans-serif;
+  color: #6e85b7;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+.imgParagraph {
+  color: #06283d;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  font-size: 0.8rem;
+  line-height: 150%;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
