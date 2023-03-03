@@ -93,7 +93,7 @@ export const CarouselImages = [
   },
 ];
 
-export const Carousel = [
+export const CarouselData = [
   {
     id: 1,
     img: "https://images.unsplash.com/photo-1580406937953-e8609006d7b4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
