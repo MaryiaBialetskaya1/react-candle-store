@@ -9,7 +9,7 @@ import { NewArrivals } from "./NewArrivals/NewArrivals";
 
 export const LumiBlossomos = () => {
   const [store, setStore] = useState(data);
-  const [arrivals, setArrival] = useState(newArrivals);
+  const [arrivals] = useState(newArrivals);
 
   const onFilter = (searchNameTerm) => {
     const newArrayOfFilteredItems = data.filter(

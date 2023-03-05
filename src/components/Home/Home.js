@@ -3,7 +3,7 @@ import { CarouselData } from "../../data";
 import s from "./Home.module.css";
 
 export const Home = () => {
-  const [images, setImages] = useState(2);
+  const [images, setImages] = useState(0);
   const { id, img } = CarouselData[images];
 
   const showPrevImage = () => {
