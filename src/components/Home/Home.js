@@ -16,6 +16,16 @@ export const Home = () => {
     });
   };
 
+  const shoeNextImage = () => {
+    setImages((images) => {
+      images++;
+      if (images > CarouselData.length - 1) {
+        return (images = 0);
+      }
+      return images;
+    });
+  };
+
   return (
     <div key={id}>
       <div className={s.carousel}>
