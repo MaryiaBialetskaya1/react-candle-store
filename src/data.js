@@ -78,18 +78,18 @@ export const newArrivals = [
   },
 ];
 
-export const CarouselImages = [
+export const carouselText = [
   {
     id: 1,
-    img: cor01,
+    item: "Buy Online, Pick Up in store available!",
   },
   {
     id: 2,
-    img: cor02,
+    item: "Shop the Art in the Spring collection",
   },
   {
     id: 3,
-    img: cor03,
+    item: "Save 40% on everything if First Time Buyer",
   },
 ];
 
