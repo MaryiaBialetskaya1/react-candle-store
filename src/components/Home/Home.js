@@ -16,7 +16,7 @@ export const Home = () => {
     });
   };
 
-  const shoeNextImage = () => {
+  const showNextImage = () => {
     setImages((images) => {
       images++;
       if (images > CarouselData.length - 1) {
@@ -35,7 +35,9 @@ export const Home = () => {
         <button className={s.prev} onClick={showPrevImage}>
           Prev
         </button>
-        <button className={s.next}>Next</button>
+        <button className={s.next} onClick={showNextImage}>
+          Next
+        </button>
       </div>
     </div>
   );
