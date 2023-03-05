@@ -10,10 +10,10 @@ export const Home = () => {
     setImages((images) => {
       images--;
       if (images < 0) {
-        return CarouselData - 1;
+        return CarouselData.length - 1;
       }
+      return images;
     });
-    return images;
   };
 
   return (
