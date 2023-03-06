@@ -4,3 +4,33 @@
 p {
   color: black;
 }
+.carouselControl {
+  background: rgba(0, 0, 0, 0.28);
+  border-radius: 50%;
+  color: #fff;
+  cursor: pointer;
+  font-size: 10px;
+  height: 20px;
+  line-height: 20px;
+  position: absolute;
+  /* top: 50%; */
+  -webkit-transform: translate(0, -50%);
+  cursor: pointer;
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  text-align: center;
+  width: 20px;
+}
+
+.carouselControl.prev {
+  left: 2%;
+}
+
+.carouselControl.next {
+  right: 2%;
+}
+
+.carouselControl:hover {
+  background: rgba(0, 0, 0, 0.8);
+  color: #aaaaaa;
+}

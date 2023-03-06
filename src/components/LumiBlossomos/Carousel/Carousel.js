@@ -7,10 +7,10 @@ export const Carousel = () => {
   const { id, item } = carouselText[text];
 
   return (
-    <div>
-      <h1 className={s.header}>TEXT CAROUSEL</h1>
+    <div key={id}>
       <p>{item}</p>
-      {}
+      <label className={`${s.carouselControl} ${s.prev}`}>&lt;</label>
+      <label className={`${s.carouselControl} ${s.next}`}>&gt;</label>
     </div>
   );
 };
