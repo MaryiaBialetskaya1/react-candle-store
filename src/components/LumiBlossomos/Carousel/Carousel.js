@@ -16,10 +16,25 @@ export const Carousel = () => {
     });
   };
 
+  const prevTextItem = () => {
+    setText((text) => {
+      text--;
+      if (text < 0) {
+        return carouselText.length - 1;
+      }
+      return text;
+    });
+  };
+
   return (
     <div key={id}>
       <p>{item}</p>
-      <label className={`${s.carouselControl} ${s.prev}`}>&lt;</label>
+      <label
+        onClick={prevTextItem}
+        className={`${s.carouselControl} ${s.prev}`}
+      >
+        &lt;
+      </label>
       <label
         onClick={nextTextItem}
         className={`${s.carouselControl} ${s.next}`}
