@@ -1,9 +1,9 @@
 import image01 from "./components/LumiBlossomos/images/image01.jpg";
 import image02 from "./components/LumiBlossomos/images/image02.jpg";
 
-import recycle from "./components/Home/images/recycle.svg";
-import reward from "./components/Home/images/reward.svg";
-import ship from "./components/Home/images/ship.svg";
+import recycle from "./components/Home/images/recycle.png";
+import reward from "./components/Home/images/reward.png";
+import pack from "./components/Home/images/package.png";
 
 export const data = [
   {
@@ -125,7 +125,7 @@ export const programs = [
   },
   {
     id: 3,
-    img: ship,
+    img: pack,
     heading: "Now Recycling",
     description:
       "Now you can recycle your finished TerraCycle fragrance products with TerraCycle",
