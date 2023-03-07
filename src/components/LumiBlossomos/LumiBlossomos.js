@@ -4,7 +4,6 @@ import { FilterButtons } from "./FilterButtons/FilterButtons";
 import s from "./LumiBlossomos.module.css";
 import { data } from "../../data";
 import { newArrivals } from "../../data";
-import { carouselText } from "../../data";
 import { useState } from "react";
 import { NewArrivals } from "./NewArrivals/NewArrivals";
 import { TextCarousel } from "./TextCarousel/TextCarousel";
