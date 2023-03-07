@@ -32,11 +32,17 @@ export const Home = () => {
         <div>
           <img src={img} className={s.item} alt="candles" />
         </div>
-        <button className={s.prev} onClick={showPrevImage}>
-          Prev
+        <button
+          className={`${s.carouselControl} ${s.prev}`}
+          onClick={showPrevImage}
+        >
+          &lt;
         </button>
-        <button className={s.next} onClick={showNextImage}>
-          Next
+        <button
+          className={`${s.carouselControl} ${s.next}`}
+          onClick={showNextImage}
+        >
+          &gt;
         </button>
       </div>
     </div>
