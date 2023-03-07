@@ -1,8 +1,5 @@
 import image01 from "./components/LumiBlossomos/images/image01.jpg";
 import image02 from "./components/LumiBlossomos/images/image02.jpg";
-import cor01 from "./components/LumiBlossomos/images/cor01.png";
-import cor02 from "./components/LumiBlossomos/images/cor02.png";
-import cor03 from "./components/LumiBlossomos/images/cor03.png";
 
 export const data = [
   {
