@@ -1,6 +1,10 @@
 import image01 from "./components/LumiBlossomos/images/image01.jpg";
 import image02 from "./components/LumiBlossomos/images/image02.jpg";
 
+import recycle from "./components/Home/images/recycle.svg";
+import reward from "./components/Home/images/reward.svg";
+import ship from "./components/Home/images/ship.svg";
+
 export const data = [
   {
     id: 1,
@@ -103,5 +107,27 @@ export const CarouselData = [
   {
     id: 3,
     img: "https://images.unsplash.com/photo-1551554766-6aceeb8da76e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjc0fHxjYW5kbGVzfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+  },
+];
+
+export const programs = [
+  {
+    id: 1,
+    img: recycle,
+    heading: "Fragrance Reward",
+    description: "Sign up and earn points for fragrance products",
+  },
+  {
+    id: 2,
+    img: reward,
+    heading: "Auto-Ship",
+    description: "Save up to 40% on all products and free shipping on orders",
+  },
+  {
+    id: 3,
+    img: ship,
+    heading: "Now Recycling",
+    description:
+      "Now you can recycle your finished TerraCycle fragrance products with TerraCycle",
   },
 ];
