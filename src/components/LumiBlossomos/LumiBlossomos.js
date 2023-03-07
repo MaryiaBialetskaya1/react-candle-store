@@ -6,7 +6,7 @@ import { data } from "../../data";
 import { newArrivals } from "../../data";
 import { useState } from "react";
 import { NewArrivals } from "./NewArrivals/NewArrivals";
-import { Carousel } from "./Carousel/Carousel";
+import { TextCarousel } from "./TextCarousel/TextCarousel";
 
 export const LumiBlossomos = () => {
   const [store, setStore] = useState(data);
@@ -21,7 +21,7 @@ export const LumiBlossomos = () => {
 
   return (
     <div>
-      <Carousel />
+      <TextCarousel />
       <div className={s.imageContainer}>
         <img className={s.mainImage} src={mainImage} alt="mainimage" />
       </div>

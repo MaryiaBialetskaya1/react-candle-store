@@ -1,8 +1,8 @@
 import { useState } from "react";
-import s from "./Carousel.module.css";
+import s from "./TextCarousel.module.css";
 import { carouselText } from "../../../data";
 
-export const Carousel = () => {
+export const TextCarousel = () => {
   const [text, setText] = useState(0);
   const { id, item } = carouselText[text];
 
