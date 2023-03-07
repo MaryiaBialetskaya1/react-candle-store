@@ -1,50 +1,13 @@
 import { useState } from "react";
-import { CarouselData } from "../../data";
+import { HomePageCarousel } from "./HomePageCarousel/HomePageCarousel";
 import s from "./Home.module.css";
 
 export const Home = () => {
   const [images, setImages] = useState(0);
-  const { id, img } = CarouselData[images];
-
-  const showPrevImage = () => {
-    setImages((images) => {
-      images--;
-      if (images < 0) {
-        return CarouselData.length - 1;
-      }
-      return images;
-    });
-  };
-
-  const showNextImage = () => {
-    setImages((images) => {
-      images++;
-      if (images > CarouselData.length - 1) {
-        return (images = 0);
-      }
-      return images;
-    });
-  };
 
   return (
-    <div key={id}>
-      <div className={s.carousel}>
-        <div>
-          <img src={img} className={s.item} alt="candles" />
-        </div>
-        <button
-          className={`${s.carouselControl} ${s.prev}`}
-          onClick={showPrevImage}
-        >
-          &lt;
-        </button>
-        <button
-          className={`${s.carouselControl} ${s.next}`}
-          onClick={showNextImage}
-        >
-          &gt;
-        </button>
-      </div>
+    <div>
+      <HomePageCarousel images={images} setImages={setImages} />
     </div>
   );
 };
