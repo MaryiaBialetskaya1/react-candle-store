@@ -31,6 +31,11 @@ export const LumiBlossomos = () => {
           from, your home will be ready to welcome the season.
         </h3>
       </div>
+      <div>
+        <h3 className={s.headerOne}>EXPLORE </h3>
+        <h3 className={s.headerTwo}>OUR COLLECTION</h3>
+      </div>
+
       <FilterButtons filter={onFilter} />
       <CandlesStore candlesStore={store} />
       <NewArrivals newArrivals={arrivals} />

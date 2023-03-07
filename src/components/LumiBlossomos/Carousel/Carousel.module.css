@@ -23,11 +23,11 @@ p {
 }
 
 .carouselControl.prev {
-  left: 2%;
+  left: 20%;
 }
 
 .carouselControl.next {
-  right: 2%;
+  right: 20%;
 }
 
 .carouselControl:hover {

@@ -24,3 +24,20 @@
   color: #6e85b7;
   text-transform: uppercase;
 }
+.headerOne {
+  letter-spacing: 3px;
+  font: 800 40px Arial;
+  font-size: 4.5rem;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px;
+  color: #735f32;
+}
+.headerTwo {
+  letter-spacing: 3px;
+  font-size: 3rem;
+  font-weight: 600;
+  background-image: linear-gradient(to bottom, #735f32, #735f32);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
