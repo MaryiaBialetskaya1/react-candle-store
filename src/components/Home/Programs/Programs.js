@@ -1,7 +1,24 @@
-export const Programs = () => {
+export const Programs = ({ program }) => {
   return (
     <div>
-      <h1>Programs</h1>
+      {program.map((item) => {
+        const { id, img, heading, description } = item;
+        return (
+          <div>
+            <div key={id}>
+              <div>
+                <img src={img} alt="program" />
+              </div>
+              <div>
+                <h3>{heading}</h3>
+              </div>
+              <div>
+                <p>{description}</p>
+              </div>
+            </div>
+          </div>
+        );
+      })}
     </div>
   );
 };
