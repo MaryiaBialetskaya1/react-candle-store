@@ -9,8 +9,8 @@ export const CandlesStore = ({ candlesStore }) => {
           <div className={s.container} key={id}>
             <div className={s.wrapper}>
               <img src={img} alt="candles" width="400px" height="500px" />
-              <h1> {price}</h1>
-              <p>{description}</p>
+              <h1 className={s.header}> {price}</h1>
+              <p className={s.paragraph}>{description}</p>
             </div>
             <div className={s.buttonWrapper}>
               <button className={`${s.btn} ${s.outline}`}>DETAILS</button>
