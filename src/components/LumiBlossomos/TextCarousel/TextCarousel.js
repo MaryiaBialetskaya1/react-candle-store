@@ -1,9 +1,9 @@
-import { useState } from "react";
+//can I tarnsfer data from main component to child component like this? *transfered from LumiBlossomos.js
+
 import s from "./TextCarousel.module.css";
 import { carouselText } from "../../../data";
 
-export const TextCarousel = () => {
-  const [text, setText] = useState(0);
+export const TextCarousel = ({ text, setText }) => {
   const { id, item } = carouselText[text];
 
   const nextTextItem = () => {
