@@ -128,6 +128,6 @@ export const programs = [
     img: pack,
     heading: "Now Recycling",
     description:
-      "Now you can recycle your finished TerraCycle fragrance products with TerraCycle",
+      "Now you can recycle your finished fragrance products with TerraCycle",
   },
 ];
