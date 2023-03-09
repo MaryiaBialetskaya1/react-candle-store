@@ -4,7 +4,7 @@ export const Programs = ({ program }) => {
   return (
     <div className={s.pageContainer}>
       <div>
-        <h3>Candlearia Store Programs</h3>
+        <h3 className={s.programHeader}>Candlearia Store Programs</h3>
       </div>
       <div className={s.container}>
         {program.map((item) => {
