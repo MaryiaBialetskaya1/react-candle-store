@@ -7,7 +7,7 @@ import { programs } from "../../data";
 export const Home = () => {
   const [images, setImages] = useState(0);
 
-  const [program, setPrograms] = useState(programs);
+  const [program] = useState(programs);
 
   return (
     <div>

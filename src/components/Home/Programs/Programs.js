@@ -10,7 +10,7 @@ export const Programs = ({ program }) => {
         {program.map((item) => {
           const { id, img, heading, description } = item;
           return (
-            <div className={s.article}>
+            <div className={s.article} key={id}>
               <div className={s.wrap}>
                 <div className={s.figure}>
                   <img src={img} className={s.img} alt="program" />
