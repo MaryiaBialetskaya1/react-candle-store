@@ -35,13 +35,13 @@ export const HomePageCarousel = ({ images, setImages }) => {
             className={`${s.carouselControl} ${s.prev}`}
             onClick={showPrevImage}
           >
-            &lt;
+            &#8249;
           </button>
           <button
             className={`${s.carouselControl} ${s.next}`}
             onClick={showNextImage}
           >
-            &gt;
+            &#8250;
           </button>
         </div>
       </div>

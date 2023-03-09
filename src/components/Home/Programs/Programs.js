@@ -2,7 +2,7 @@ import s from "./Programs.module.css";
 
 export const Programs = ({ program }) => {
   return (
-    <div>
+    <div className={s.pageContainer}>
       <div>
         <h3>Candlearia Store Programs</h3>
       </div>
