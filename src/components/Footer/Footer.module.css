@@ -44,7 +44,7 @@
   font-size: 15px;
 }
 
-.footer address {
+.address {
   font-style: normal;
   color: #999;
 }
@@ -87,7 +87,7 @@
   margin-right: 1.25em;
 }
 
-.navUl a {
+.navUlItem {
   color: #999;
 }
 
@@ -121,11 +121,6 @@
   .footerNav > * {
     flex: 1;
   }
-
-  .footerNav--extra {
-    flex-grow: 2;
-  }
-
   .footerAddr {
     flex: 1 0px;
   }
