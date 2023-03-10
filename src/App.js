@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
 import { FloralCandleSoul } from "./components/FloralCandleSoul/FloralCandleSoul";
+import { Footer } from "./components/Footer/Footer";
 import { Header } from "./components/Header/Header";
 import { Home } from "./components/Home/Home";
 import { LumiBlossomos } from "./components/LumiBlossomos/LumiBlossomos";
@@ -19,6 +20,7 @@ function App() {
           <Route path="/floralcandlesoul" element={<FloralCandleSoul />} />
           <Route path="/lumicandle" element={<LumiCandle />} />
         </Routes>
+        <Footer />
       </div>
     </Router>
   );
