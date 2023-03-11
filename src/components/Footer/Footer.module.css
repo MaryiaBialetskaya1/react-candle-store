@@ -1,16 +1,17 @@
 .body {
   font-family: acumin-pro, system-ui, sans-serif;
   margin: 0;
-  display: grid;
+  /* display: grid;
   grid-template-rows: auto 1fr auto;
+  align-items: start; */
   font-size: 14px;
   background-color: #f4f4f4;
-  align-items: start;
+
   min-height: 100vh;
 }
 .footer {
-  display: flex;
-  flex-flow: row wrap;
+  /* display: flex;
+  flex-flow: row wrap; */
   padding: 30px 30px 20px 30px;
   color: #2f2f2f;
   background-color: #fff;
@@ -49,7 +50,7 @@
   color: #999;
 }
 
-.footeBtn {
+.footerBtn {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -63,24 +64,13 @@
   font-size: 1rem;
   padding: 0 1.3em;
 }
-
-.footer ul {
-  list-style: none;
-  padding-left: 0;
-}
-
-.footer li {
+.navItem {
   line-height: 2em;
 }
-
-.footer a {
-  text-decoration: none;
-}
-
-.footerNav {
+/* .footerNav {
   display: flex;
   flex-flow: row wrap;
-}
+} */
 
 .footerNav > * {
   flex: 1 50%;
@@ -89,6 +79,8 @@
 
 .navUlItem {
   color: #999;
+  list-style: none;
+  padding-left: 0;
 }
 
 .navUlExtra {

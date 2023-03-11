@@ -19,40 +19,40 @@ export const Footer = () => {
             <h2 className={s.navTitle}>Media</h2>
             <ul className={s.navUl}>
               <li>
-                <a className={s.navUlItem} href="#">
+                <button className={s.navUlItem} href="#">
                   Online
-                </a>
+                </button>
               </li>
               <li>
-                <a className={s.navUlItem} href="#">
+                <button className={s.navUlItem} href="#">
                   Print
-                </a>
+                </button>
               </li>
               <li>
-                <a className={s.navUlItem} href="#">
+                <button className={s.navUlItem} href="#">
                   Alternative Ads
-                </a>
+                </button>
               </li>
             </ul>
           </li>
 
           <li className={s.navItem}>
-            <h2 className={s.navTitle}>Technology</h2>
+            <h2 className={s.navTitle}>Product</h2>
             <ul className={s.navUl}>
               <li>
-                <a className={s.navUlItem} href="#">
-                  Hardware Design
-                </a>
+                <button className={s.navUlItem} href="#">
+                  Benefits
+                </button>
               </li>
               <li>
-                <a className={s.navUlItem} href="#">
-                  Software Design
-                </a>
+                <button className={s.navUlItem} href="#">
+                  Partners
+                </button>
               </li>
               <li>
-                <a className={s.navUlItem} href="#">
+                <button className={s.navUlItem} href="#">
                   Digital Signage
-                </a>
+                </button>
               </li>
             </ul>
           </li>
@@ -61,19 +61,19 @@ export const Footer = () => {
             <h2 className={s.navTitle}>Legal</h2>
             <ul className={s.navUl}>
               <li>
-                <a className={s.navUlItem} href="#">
+                <button className={s.navUlItem} href="#">
                   Privacy Policy
-                </a>
+                </button>
               </li>
               <li>
-                <a className={s.navUlItem} href="#">
+                <button className={s.navUlItem} href="#">
                   Terms of Use
-                </a>
+                </button>
               </li>
               <li>
-                <a className={s.navUlItem} href="#">
+                <button className={s.navUlItem} href="#">
                   Sitemap
-                </a>
+                </button>
               </li>
             </ul>
           </li>
