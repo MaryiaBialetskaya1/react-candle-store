@@ -79,10 +79,13 @@
 
 .navUlItem {
   color: #999;
-  list-style: none;
+  background-color: transparent;
+  border: none;
   padding-left: 0;
 }
-
+.buttonItem {
+  list-style: none;
+}
 .navUlExtra {
   column-count: 2;
   column-gap: 1.25em;

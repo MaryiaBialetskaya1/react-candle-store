@@ -18,17 +18,17 @@ export const Footer = () => {
           <li className={s.navItem}>
             <h2 className={s.navTitle}>Media</h2>
             <ul className={s.navUl}>
-              <li>
+              <li className={s.buttonItem}>
                 <button className={s.navUlItem} href="#">
                   Online
                 </button>
               </li>
-              <li>
+              <li className={s.buttonItem}>
                 <button className={s.navUlItem} href="#">
                   Print
                 </button>
               </li>
-              <li>
+              <li className={s.buttonItem}>
                 <button className={s.navUlItem} href="#">
                   Alternative Ads
                 </button>
@@ -39,17 +39,17 @@ export const Footer = () => {
           <li className={s.navItem}>
             <h2 className={s.navTitle}>Product</h2>
             <ul className={s.navUl}>
-              <li>
+              <li className={s.buttonItem}>
                 <button className={s.navUlItem} href="#">
                   Benefits
                 </button>
               </li>
-              <li>
+              <li className={s.buttonItem}>
                 <button className={s.navUlItem} href="#">
                   Partners
                 </button>
               </li>
-              <li>
+              <li className={s.buttonItem}>
                 <button className={s.navUlItem} href="#">
                   Digital Signage
                 </button>
@@ -60,17 +60,17 @@ export const Footer = () => {
           <li className={s.navItem}>
             <h2 className={s.navTitle}>Legal</h2>
             <ul className={s.navUl}>
-              <li>
+              <li className={s.buttonItem}>
                 <button className={s.navUlItem} href="#">
                   Privacy Policy
                 </button>
               </li>
-              <li>
+              <li className={s.buttonItem}>
                 <button className={s.navUlItem} href="#">
                   Terms of Use
                 </button>
               </li>
-              <li>
+              <li className={s.buttonItem}>
                 <button className={s.navUlItem} href="#">
                   Sitemap
                 </button>
