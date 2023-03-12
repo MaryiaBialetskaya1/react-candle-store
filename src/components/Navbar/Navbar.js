@@ -22,14 +22,6 @@ export const Navbar = () => {
       </div>
       <div className={s.item}>
         <NavLink
-          to="floralcandlesoul"
-          className={(navData) => (navData.isActive ? s.active : s.item)}
-        >
-          Floral Candle Soul
-        </NavLink>
-      </div>
-      <div className={s.item}>
-        <NavLink
           to="lumicandle"
           className={(navData) => (navData.isActive ? s.active : s.item)}
         >

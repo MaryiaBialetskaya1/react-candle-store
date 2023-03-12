@@ -24,3 +24,31 @@
   font-family: "Roboto", sans-serif;
   font-weight: 500;
 }
+@media screen and (max-width: 700px) {
+  .item a {
+    font-size: 10px;
+  }
+  .item a.active {
+    font-size: 12px;
+    padding: 31px;
+  }
+}
+@media screen and (max-width: 595px) {
+  .item a {
+    font-weight: 400;
+  }
+  .item a.active {
+    font-size: 10px;
+    padding: 31px 30px;
+    font-weight: 400;
+  }
+}
+@media screen and (max-width: 420px) {
+  .item a.active {
+    padding: 31px 20px;
+  }
+
+  .item {
+    padding: 10px;
+  }
+}
