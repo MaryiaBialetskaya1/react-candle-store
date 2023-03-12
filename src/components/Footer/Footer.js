@@ -6,7 +6,7 @@ export const Footer = () => {
       <div className={s.footer}>
         <div className={s.footerAddr}>
           <h1 className={s.footerLogo}>CandleariaStore</h1>
-          <h2>Contact</h2>
+          <h2 className={s.footerHeader}>Contact</h2>
           <address className={s.address}>
             5534 Somewhere In. The World 22193-10212
             <a className={s.footerBtn} href="mailto:example@gmail.com">
