@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
 .imageContainer {
-  margin-top: 50px;
+  margin-top: 30px;
 }
 .mainImage {
   width: 100%;
@@ -24,6 +24,9 @@
   color: #6e85b7;
   text-transform: uppercase;
 }
+.textContainer {
+  padding: 0 20px;
+}
 .headerOne {
   letter-spacing: 3px;
   font: 800 40px Arial;
@@ -40,4 +43,57 @@
   color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
+}
+@media screen and (max-width: 1024px) {
+  .mainImage {
+    height: 300px;
+  }
+  .headerContainer {
+    height: 40vh;
+  }
+  .header {
+    font-size: 20px;
+  }
+  .headerOne {
+    letter-spacing: 2.5px;
+    font-size: 4rem;
+  }
+  .headerTwo {
+    letter-spacing: 2px;
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .mainImage {
+    height: 200px;
+  }
+  .headerContainer {
+    height: 30vh;
+  }
+  .header {
+    font-size: 15px;
+    padding: 0px 10px;
+  }
+  .textContainer {
+    padding: 0 10px;
+  }
+  .headerOne {
+    letter-spacing: 2px;
+    font-size: 3rem;
+  }
+  .headerTwo {
+    font-size: 2.5rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .mainImage {
+    height: 150px;
+  }
+  .headerOne {
+    font-size: 2rem;
+  }
+  .headerTwo {
+    font-size: 1.5rem;
+  }
 }

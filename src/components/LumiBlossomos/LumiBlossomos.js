@@ -33,7 +33,7 @@ export const LumiBlossomos = () => {
           from, your home will be ready to welcome the season.
         </h3>
       </div>
-      <div>
+      <div className={s.textContainer}>
         <h3 className={s.headerOne}>EXPLORE </h3>
         <h3 className={s.headerTwo}>OUR COLLECTION</h3>
       </div>
