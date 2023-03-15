@@ -29,3 +29,26 @@
   justify-content: space-evenly;
   margin: 100px 0 50px 0;
 }
+@media screen and (max-width: 768px) {
+  .buttonWrapper {
+    margin: 50px 0;
+  }
+  .btn {
+    padding: 15px 10px;
+    font-size: 0.5rem;
+    letter-spacing: 1.5px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .buttonWrapper {
+    margin: 30px 0;
+  }
+  .btn {
+    padding: 10px 5px;
+    font-size: 0.4rem;
+    letter-spacing: 1px;
+  }
+  .fill:hover {
+    transform: scale(1);
+  }
+}
