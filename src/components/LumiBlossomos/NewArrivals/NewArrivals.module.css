@@ -107,6 +107,7 @@
   font-size: 3rem;
   letter-spacing: 2px;
   text-transform: uppercase;
+  text-align: center;
 }
 .par {
   font-family: "Lato", sans-serif;
@@ -140,27 +141,131 @@
 }
 @media screen and (max-width: 900px) {
   .headerContainer {
-    width: 90%;
-    height: 50vh;
+    height: 60vh;
     margin: 0 auto;
+  }
+  .headerOne {
+    font-size: 1.8rem;
+    line-height: 150%;
+    letter-spacing: 2px;
+  }
+  .headerTwo {
+    font-size: 3.5rem;
+  }
+  .headerThree {
+    font-size: 2.8rem;
+  }
+  .mainImage {
+    margin: 0px;
+    height: 400px;
   }
   .headerFour {
     font-size: 2rem;
   }
   .par {
-    padding: 0px 100px;
+    padding: 0px 70px;
   }
 }
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 680px) {
   .headerContainer {
-    width: 90%;
     height: 50vh;
-    margin: 0 auto;
+    gap: 10px;
+  }
+  .headerOne {
+    font-size: 1.5rem;
+    line-height: 100%;
+    letter-spacing: 1.8px;
+  }
+  .headerTwo {
+    font-size: 2.5rem;
+  }
+  .headerThree {
+    font-size: 2rem;
   }
   .headerFour {
     font-size: 2rem;
   }
+  .mainImage {
+    height: 300px;
+  }
   .par {
-    padding: 0px 100px;
+    font-size: 1rem;
+    padding: 0px 20px;
+  }
+  .img {
+    width: 420px;
+    height: 560px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .headerContainer {
+    height: 40vh;
+    gap: 8px;
+  }
+  .headerOne {
+    font-size: 1.2rem;
+    line-height: 100%;
+    letter-spacing: 1.8px;
+  }
+  .headerTwo {
+    font-size: 2rem;
+  }
+  .headerThree {
+    font-size: 1.8rem;
+  }
+  .mainImage {
+    height: 250px;
+  }
+  .headerFour {
+    font-size: 1.2rem;
+  }
+  .par {
+    font-size: 0.8rem;
+    padding: 0px 10px;
+  }
+  .imageContainer {
+    padding: 10px 0;
+  }
+  .img {
+    width: 300px;
+    height: 400px;
+  }
+  .imgParagraph {
+    font-size: 0.6rem;
+    line-height: 100%;
+    letter-spacing: 1.8px;
+  }
+}
+@media screen and (max-width: 390px) {
+  .headerContainer {
+    height: 30vh;
+    gap: 5px;
+  }
+  .headerOne {
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+  }
+  .headerTwo {
+    font-size: 1.4rem;
+  }
+  .headerThree {
+    font-size: 1.3rem;
+  }
+  .mainImage {
+    height: 180px;
+  }
+  .headerFour {
+    font-size: 1rem;
+  }
+  .imgParagraph {
+    font-size: 0.5rem;
+    letter-spacing: 1.2px;
+  }
+  .description {
+    font-size: 1.2rem;
+  }
+  .container {
+    gap: 10px;
   }
 }
