@@ -12,6 +12,7 @@
   cursor: pointer;
   font-size: 35px;
   height: 40px;
+  width: 40px;
   line-height: 35px;
   position: absolute;
   top: 50%;
@@ -20,18 +21,33 @@
   -ms-transform: translate(0, -50%);
   transform: translate(0, -50%);
   text-align: center;
-  width: 40px;
 }
-
 .carouselControl.prev {
   left: 2%;
 }
-
 .carouselControl.next {
   right: 2%;
 }
-
 .carouselControl:hover {
   background: rgba(0, 0, 0, 0.8);
   color: #aaaaaa;
+}
+
+@media screen and (max-width: 900px) {
+  .item {
+    height: 50vh;
+  }
+  .carouselControl {
+    top: 45%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .carouselControl {
+    top: 40%;
+    font-size: 30px;
+    height: 35px;
+    width: 35px;
+    line-height: 30px;
+  }
 }
