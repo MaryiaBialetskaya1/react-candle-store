@@ -27,8 +27,10 @@ export const TextCarousel = ({ text, setText }) => {
   };
 
   return (
-    <div key={id}>
-      <p>{item}</p>
+    <div key={id} className={s.container}>
+      <div>
+        <p className={s.paragraph}>{item}</p>
+      </div>
       <label
         onClick={prevTextItem}
         className={`${s.carouselControl} ${s.prev}`}
