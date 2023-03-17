@@ -97,7 +97,6 @@ export const carouselText = [
 export const CarouselData = [
   {
     id: 1,
-
     img: "https://images.unsplash.com/photo-1573849652968-ad773a0f0046?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nzd8fGNhbmRsZXN8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
   },
   {
@@ -129,5 +128,38 @@ export const programs = [
     heading: "Now Recycling",
     description:
       "Now you can recycle your finished fragrance products with TerraCycle",
+  },
+];
+
+export const storeAvailability = [
+  {
+    id: 1,
+    img: "https://images.unsplash.com/photo-1479772603027-4a8086a8e61e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=776&q=80",
+    name: "Woody",
+    description: "Like being in a forest",
+  },
+  {
+    id: 2,
+    img: "https://images.unsplash.com/photo-1535850836387-0f9dfce30846?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1422&q=80",
+    name: "Floral",
+    description: "Like the feeling of fresh-cut flowers",
+  },
+  {
+    id: 3,
+    img: "https://images.unsplash.com/photo-1535850836387-0f9dfce30846?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1422&q=80",
+    name: "Citrus",
+    description: "Like being light and refreshing",
+  },
+  {
+    id: 4,
+    img: "https://images.unsplash.com/photo-1596298796083-b75a1efc6ae7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80",
+    name: "Berries",
+    description: "Like feeling the summer",
+  },
+  {
+    id: 6,
+    img: "https://images.unsplash.com/photo-1601379758962-cadba22b1e3a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2787&q=80",
+    name: "Spicy",
+    description: "Like feeling chilly autumn days",
   },
 ];
