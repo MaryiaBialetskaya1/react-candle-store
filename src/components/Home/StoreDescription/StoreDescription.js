@@ -1,8 +1,8 @@
-export const StoreDescription = ({ storeAvailability }) => {
+export const StoreDescription = ({ availability }) => {
   return (
     <div>
       <h1>Store Description</h1>
-      {storeAvailability.map((item) => {
+      {availability.map((item) => {
         const { id, img, name, description } = item;
         return (
           <div key={id}>
