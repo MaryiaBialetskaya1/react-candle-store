@@ -140,24 +140,24 @@ export const storeAvailability = [
   },
   {
     id: 2,
-    img: "https://images.unsplash.com/photo-1535850836387-0f9dfce30846?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1422&q=80",
-    name: "Floral",
-    description: "Like the feeling of fresh-cut flowers",
-  },
-  {
-    id: 3,
-    img: "https://images.unsplash.com/photo-1569442130407-8d2d49e741db?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1673&q=80",
-    name: "Citrus",
-    description: "Like being light and refreshing",
-  },
-  {
-    id: 4,
-    img: "https://images.unsplash.com/photo-1596298796083-b75a1efc6ae7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80",
+    img: "https://images.unsplash.com/photo-1504855328839-2f4baf9e0fd7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDE0fHxiZXJyaWVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
     name: "Berries",
     description: "Like feeling the summer",
   },
   {
-    id: 6,
+    id: 3,
+    img: "https://images.unsplash.com/photo-1575178114667-c8a832c61f45?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTF8fGZsb3JhbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+    name: "Floral",
+    description: "Like feeling of fresh-cut flowers",
+  },
+  {
+    id: 4,
+    img: "https://images.unsplash.com/photo-1517260739337-6799d239ce83?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0cnVzJTIwZnJ1aXRzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+    name: "Citrus",
+    description: "Like being light and refreshing",
+  },
+  {
+    id: 5,
     img: "https://images.unsplash.com/photo-1601379758962-cadba22b1e3a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2787&q=80",
     name: "Spicy",
     description: "Like feeling chilly autumn days",

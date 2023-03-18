@@ -10,9 +10,8 @@
   padding-bottom: 100px;
 }
 .pageContainer {
-  padding: 100px 0 100px 0;
+  padding: 100px 0;
 }
-
 .container {
   display: grid;
   max-width: 1200px;
