@@ -163,3 +163,27 @@ export const storeAvailability = [
     description: "Like feeling chilly autumn days",
   },
 ];
+
+export const reviews = [
+  {
+    id: 1,
+    img: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cG9ydHJhaXR8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60",
+    name: "@Nelly",
+    description:
+      "Very beautiful candles, the smell is pleasant, the purchase is satisfied",
+  },
+  {
+    id: 2,
+    img: "https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHBvcnRyYWl0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+    name: "@JuliaRob",
+    description:
+      "The parcel came undamaged, the packaging is top-notch, the aroma is cool",
+  },
+  {
+    id: 3,
+    img: "https://images.unsplash.com/photo-1499372076272-6b5c2d2bb391?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzF8fHBvcnRyYWl0JTIwb2YlMjB0d28lMjBwZW9wbGV8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60",
+    name: "@Kelly_Tony",
+    description:
+      "The candles are beautifully made, they smell like real berries, the packaging is securely wrapped.",
+  },
+];
