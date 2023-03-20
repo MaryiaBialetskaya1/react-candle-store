@@ -97,7 +97,7 @@ export const carouselText = [
 export const CarouselData = [
   {
     id: 1,
-    img: "https://images.unsplash.com/photo-1573849652968-ad773a0f0046?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nzd8fGNhbmRsZXN8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+    img: "https://images.unsplash.com/photo-1503926359680-9ddd5b2bcbdc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTAwfHxjYW5kbGV8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
   },
   {
     id: 2,
@@ -105,7 +105,7 @@ export const CarouselData = [
   },
   {
     id: 3,
-    img: "https://images.unsplash.com/photo-1551554766-6aceeb8da76e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjc0fHxjYW5kbGVzfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+    img: "https://plus.unsplash.com/premium_photo-1661740257274-16f8aa4a7347?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OTd8fGNhbmRsZXxlbnwwfDB8MHx8&auto=format&fit=crop&w=800&q=60",
   },
 ];
 

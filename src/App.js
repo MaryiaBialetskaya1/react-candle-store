@@ -4,7 +4,7 @@ import { Footer } from "./components/Footer/Footer";
 import { Header } from "./components/Header/Header";
 import { Home } from "./components/Home/Home";
 import { LumiBlossomos } from "./components/LumiBlossomos/LumiBlossomos";
-import { LumiCandle } from "./components/LumiCandle/LumiCandle";
+import { About } from "./components/About/About";
 import { Navbar } from "./components/Navbar/Navbar";
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/lumiblossomos" element={<LumiBlossomos />} />
-          <Route path="/lumicandle" element={<LumiCandle />} />
+          <Route path="/about" element={<About />} />
         </Routes>
         <Footer />
       </div>

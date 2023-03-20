@@ -18,7 +18,8 @@
 }
 .item a.active {
   padding: 40px;
-  background-color: #4f606a;
+  /* background-color: #4f606a; */
+  background-color: #1c1b1a;
   color: #f4f2f2;
   font-size: 14px;
   font-family: "Roboto", sans-serif;

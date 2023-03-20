@@ -22,10 +22,10 @@ export const Navbar = () => {
       </div>
       <div className={s.item}>
         <NavLink
-          to="lumicandle"
+          to="about"
           className={(navData) => (navData.isActive ? s.active : s.item)}
         >
-          Lumi Candle
+          About
         </NavLink>
       </div>
     </div>

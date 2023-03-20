@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+.imageContainer {
+  position: relative;
+}
+.textContainer {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+}
+.img {
+  width: 100%;
+  height: 90vh;
+  object-position: center;
+  object-fit: cover;
+}
+.header {
+  font-size: 48px;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 3px;
+  color: #735f32;
+}
+.paragraph {
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+  color: #735f32;
+}
+.pageHeader {
+  text-align: center;
+  margin: 100px 0;
+  color: #3e3e3c;
+  font-size: 38px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
