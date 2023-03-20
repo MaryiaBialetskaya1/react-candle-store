@@ -112,19 +112,19 @@ export const CarouselData = [
 export const programs = [
   {
     id: 1,
-    img: recycle,
+    img: reward,
     heading: "Fragrance Reward",
     description: "Sign up and earn points for fragrance products",
   },
   {
     id: 2,
-    img: reward,
+    img: pack,
     heading: "Auto-Ship",
     description: "Save up to 40% on all products and free shipping on orders",
   },
   {
     id: 3,
-    img: pack,
+    img: recycle,
     heading: "Now Recycling",
     description:
       "Now you can recycle your finished fragrance products with TerraCycle",
