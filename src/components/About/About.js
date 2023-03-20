@@ -3,7 +3,13 @@ import { useState } from "react";
 import { aboutCards } from "../../data";
 
 export const About = () => {
-  const [about, setAbout] = useState(aboutCards);
+  const [about] = useState(aboutCards);
+
+  const [showText, setShowMoreText] = useState(false);
+  const showMoreAndLessText = (element) => {
+    element.showMore = !element.showMore;
+    setShowMoreText(!showText);
+  };
   return (
     <div>
       <div className={s.imageContainer}>
@@ -22,11 +28,16 @@ export const About = () => {
       </div>
       <div className={s.page}>
         {about.map((item) => {
-          const { id, img, paragraph } = item;
+          const { id, img, paragraph, showMore } = item;
           return (
             <div key={id} className={s.cardContainer}>
               <div className={s.paragraphContainer}>
-                <p>{paragraph}</p>
+                <p>
+                  {showMore ? paragraph : paragraph.substring(0, 170) + "..."}
+                  <button onClick={() => showMoreAndLessText(item)}>
+                    {showMore ? "Show Less" : "Show more"}
+                  </button>
+                </p>
               </div>
               <div className={s.cardImage}>
                 <img src={img} alt="candle" className={s.image} />
