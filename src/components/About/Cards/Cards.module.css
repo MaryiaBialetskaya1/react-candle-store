@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+
+.page {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.cardContainer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+.cardContainer:nth-of-type(1n + 2) {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 20px;
+}
+.cardContainer:nth-of-type(1n + 3) {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+.cardContainer:nth-of-type(1n + 4) {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 20px;
+}
+.cardImage {
+  background-color: #3e3e3c;
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  margin: auto 0;
+  overflow: hidden;
+}
+.showMoreAndLessText {
+  background: none;
+  border: none;
+  font-size: 18px;
+  color: #735f32;
+}
+.paragraphContainer {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 150px;
+  background-color: #3e3e3c;
+  color: aliceblue;
+  overflow: hidden;
+}
+.paragraphHeader {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+}
+.year {
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  font-weight: 500;
+}
+.par {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+@media screen and (max-width: 1200px) {
+  .paragraphContainer {
+    padding: 0 100px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .paragraphContainer {
+    padding: 0 50px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .cardContainer {
+    flex-direction: column-reverse;
+  }
+  .cardContainer:nth-of-type(1n + 2) {
+    flex-direction: column-reverse;
+  }
+  .cardContainer:nth-of-type(1n + 3) {
+    flex-direction: column-reverse;
+  }
+  .cardContainer:nth-of-type(1n + 4) {
+    flex-direction: column-reverse;
+  }
+  .cardImage {
+    width: 100%;
+  }
+  .paragraphContainer {
+    width: 100%;
+    padding: 120px 100px;
+  }
+  .image {
+    height: 400px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .header {
+    font-size: 28px;
+    letter-spacing: 2px;
+  }
+  .paragraph {
+    font-size: 15px;
+  }
+  .pageHeader {
+    margin: 50px 0;
+    font-size: 28px;
+  }
+  .paragraphContainer {
+    width: 100%;
+    padding: 100px 20px;
+  }
+  .image {
+    height: 300px;
+    width: 100%;
+  }
+  .year {
+    font-size: 26px;
+  }
+  .paragraphHeader {
+    font-size: 20px;
+  }
+  .par {
+    font-size: 14px;
+  }
+}

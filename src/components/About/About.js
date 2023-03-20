@@ -1,10 +1,11 @@
 import s from "./About.module.css";
 import { useState } from "react";
 import { aboutCards } from "../../data";
+import ScrollButton from "./Scroll/Scroll";
+import { Cards } from "./Cards/Cards";
 
 export const About = () => {
   const [about] = useState(aboutCards);
-
   const [showText, setShowMoreText] = useState(false);
   const showMoreAndLessText = (element) => {
     element.showMore = !element.showMore;
@@ -26,37 +27,8 @@ export const About = () => {
       <div className={s.pageHeaderContainer}>
         <h2 className={s.pageHeader}>Our Way</h2>
       </div>
-      <div className={s.page}>
-        {about.map((item) => {
-          const { id, img, year, header, paragraph, showMore } = item;
-          return (
-            <div key={id} className={s.cardContainer}>
-              <div className={s.paragraphContainer}>
-                <div>
-                  <h2 className={s.year}>{year}</h2>
-                </div>
-                <div>
-                  <h3 className={s.paragraphHeader}>{header}</h3>
-                </div>
-                <div>
-                  <p className={s.par}>
-                    {showMore ? paragraph : paragraph.substring(0, 170) + "..."}
-                    <button
-                      className={s.showMoreAndLessText}
-                      onClick={() => showMoreAndLessText(item)}
-                    >
-                      {showMore ? "Show Less" : "Show more"}
-                    </button>
-                  </p>
-                </div>
-              </div>
-              <div className={s.cardImage}>
-                <img src={img} alt="candle" className={s.image} />
-              </div>
-            </div>
-          );
-        })}
-      </div>
+      <Cards about={about} showMoreAndLessText={showMoreAndLessText} />
+      <ScrollButton />
     </div>
   );
 };
