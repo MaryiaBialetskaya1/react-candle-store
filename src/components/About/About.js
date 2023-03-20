@@ -1,6 +1,9 @@
 import s from "./About.module.css";
+import { useState } from "react";
+import { aboutCards } from "../../data";
 
 export const About = () => {
+  const [about, setAbout] = useState(aboutCards);
   return (
     <div>
       <div className={s.imageContainer}>
@@ -16,6 +19,21 @@ export const About = () => {
       </div>
       <div className={s.pageHeaderContainer}>
         <h2 className={s.pageHeader}>Our Way</h2>
+      </div>
+      <div className={s.page}>
+        {about.map((item) => {
+          const { id, img, paragraph } = item;
+          return (
+            <div key={id} className={s.cardContainer}>
+              <div className={s.paragraphContainer}>
+                <p>{paragraph}</p>
+              </div>
+              <div className={s.cardImage}>
+                <img src={img} alt="candle" className={s.image} />
+              </div>
+            </div>
+          );
+        })}
       </div>
     </div>
   );
