@@ -34,10 +34,11 @@
   font-weight: 500;
 }
 .page {
-  max-width: 1200px;
+  max-width: 1440px;
   margin: 0 auto;
 }
 .cardContainer {
+  width: 1440px;
   display: flex;
   flex-direction: row;
   margin-top: 20px;
@@ -58,16 +59,41 @@
   margin-top: 20px;
 }
 .cardImage {
+  background-color: #3e3e3c;
+  display: flex;
+  justify-content: center;
   width: 50%;
   margin: auto 0;
+  overflow: hidden;
 }
-.image {
-  width: 600px;
+.showMoreAndLessText {
+  background: none;
+  border: none;
+  font-size: 18px;
+  color: #735f32;
 }
 .paragraphContainer {
+  width: 50%;
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  justify-content: center;
   padding: 0 150px;
   background-color: #3e3e3c;
   color: aliceblue;
+  overflow: hidden;
+}
+.paragraphHeader {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+}
+.year {
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  font-weight: 500;
+}
+.par {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
 }

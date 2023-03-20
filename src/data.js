@@ -192,29 +192,37 @@ export const aboutCards = [
   {
     id: 1,
     img: "https://images.unsplash.com/photo-1595549269082-bdf7ac28b345?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OTN8fGNhbmRsZXxlbnwwfDB8MHx8&auto=format&fit=crop&w=800&q=60",
+    year: 2009,
+    header: "Woody aroma",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. U enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor i reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "We opened our first candle shop based in New York. In stock were wood fragrances with a sophisticated and elegant design. The candles were presented with a gentle, soothing crackle. Our unsurpassed style, design and natural materials are what the buyer liked so much.",
     showMore: false,
   },
   {
     id: 2,
     img: "https://images.unsplash.com/photo-1607838660853-a2cf34eec5b9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTA2fHxjYW5kbGV8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+    year: 2010,
+    header: "Berries candles",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. U enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor i reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "Shop CandleriaStore® offers a new collection of candle scents with an innovative combination of berry scents. Each candle in the new collection offers candles with carefully selected scents that create a unique and evolving experience.",
     showMore: false,
   },
   {
     id: 3,
     img: "https://images.unsplash.com/photo-1602036598416-5604b2e2a7ed?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTE0fHxjYW5kbGV8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+    year: 2012,
+    header: "Floral scent",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. U enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor i reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "A new candle production technology has been introduced, and new styles have been added such as the hourglass shape, which are equipped with wooden wicks and lids, and a new scent of fragrant flowers has been added.",
     showMore: false,
   },
   {
     id: 4,
     img: "https://images.unsplash.com/photo-1529516222410-a269d812f320?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTI0fHxjYW5kbGV8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+    year: 2016,
+    header: "Basic unscent candles",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. U enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor i reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "Candles have been added to the collection that are odorless but have a new exclusive wooden wick with a long dancing flame. Such candles perfectly create an atmosphere of seduction and intrigue, new vessels of an elongated elliptical shape complement the image with grandeur.",
     showMore: false,
   },
 ];
