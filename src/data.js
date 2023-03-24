@@ -1,5 +1,6 @@
 import image01 from "./components/LumiBlossomos/images/image01.jpg";
 import image02 from "./components/LumiBlossomos/images/image02.jpg";
+import image03 from "./components/LumiBlossomos/images/image03.jpg";
 
 import recycle from "./components/Home/images/recycle.png";
 import reward from "./components/Home/images/reward.png";
@@ -11,7 +12,7 @@ export const data = [
     searchNameTerm: "unscented",
     img: "https://images.unsplash.com/photo-1605651202774-7d573fd3f12d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Y2FuZGxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
     price: "$10.99",
-    description: "Unscented Candle in a Glass",
+    description: "Unscented Candle in a Glass cup",
   },
   {
     id: 2,
@@ -51,23 +52,23 @@ export const data = [
   {
     id: 7,
     searchNameTerm: "unscented",
-    img: "https://images.unsplash.com/photo-1594631252819-b0068f894630?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTAyfHxjYW5kbGVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+    img: "https://images.unsplash.com/photo-1619695662967-3e739a597f47?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
     price: "$10.99",
-    description: "Unscented Candle in a Glass",
+    description: "Unscented Candle in a Glass cup",
   },
   {
     id: 8,
     searchNameTerm: "wood",
     img: "https://images.unsplash.com/photo-1609972815868-9676b35b648e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjQ1fHxjYW5kbGV8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60",
     price: "$14.49",
-    description: "Candle in a glass - Patchouli Scent",
+    description: "Candle in a glass cup - Patchouli Scent",
   },
 ];
 
 export const newArrivals = [
   {
     id: 1,
-    img: image01,
+    img: image03,
     description: "Easter scent is coming!",
     par: "We’ve got the right fragrances for the every day.",
   },
@@ -105,7 +106,7 @@ export const CarouselData = [
   },
   {
     id: 3,
-    img: "https://plus.unsplash.com/premium_photo-1661740257274-16f8aa4a7347?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OTd8fGNhbmRsZXxlbnwwfDB8MHx8&auto=format&fit=crop&w=800&q=60",
+    img: "https://images.unsplash.com/photo-1605651707963-01c2baf9adee?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjV8fGNhbmRsZXxlbnwwfDB8MHx8&auto=format&fit=crop&w=800&q=60",
   },
 ];
 
@@ -218,11 +219,11 @@ export const aboutCards = [
   },
   {
     id: 4,
-    img: "https://images.unsplash.com/photo-1529516222410-a269d812f320?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTI0fHxjYW5kbGV8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+    img: "https://images.unsplash.com/photo-1575549588905-dd85c6abb462?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OTE3fHxjYW5kbGV8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60",
     year: 2016,
     header: "Basic unscent candles",
     paragraph:
-      "Candles have been added to the collection that are odorless but have a new exclusive wooden wick with a long dancing flame. Such candles perfectly create an atmosphere of seduction and intrigue, new vessels of an elongated elliptical shape complement the image with grandeur.",
+      "Odorless candles have been added to the collection that have a new exclusive wooden wick with a long dancing flame. Such candles perfectly create an atmosphere of seduction and intrigue, new vessels of an elongated elliptical shape complement the image with grandeur.",
     showMore: false,
   },
 ];

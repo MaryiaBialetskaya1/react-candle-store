@@ -25,26 +25,22 @@ export const HomePageCarousel = ({ images, setImages }) => {
   };
 
   return (
-    <div>
-      <div key={id}>
-        <div className={s.carousel}>
-          <div>
-            <img src={img} className={s.item} alt="candles" />
-          </div>
-          <button
-            className={`${s.carouselControl} ${s.prev}`}
-            onClick={showPrevImage}
-          >
-            &#8249;
-          </button>
-          <button
-            className={`${s.carouselControl} ${s.next}`}
-            onClick={showNextImage}
-          >
-            &#8250;
-          </button>
-        </div>
+    <div className={s.carousel} key={id}>
+      <div>
+        <img src={img} className={s.item} alt="candles" />
       </div>
+      <button
+        className={`${s.carouselControl} ${s.prev}`}
+        onClick={showPrevImage}
+      >
+        &#8249;
+      </button>
+      <button
+        className={`${s.carouselControl} ${s.next}`}
+        onClick={showNextImage}
+      >
+        &#8250;
+      </button>
     </div>
   );
 };
