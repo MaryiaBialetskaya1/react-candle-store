@@ -1,5 +1,3 @@
-//can I tarnsfer data from main component to child component like this? *transfered from LumiBlossomos.js
-
 import s from "./TextCarousel.module.css";
 import { carouselText } from "../../../data";
 

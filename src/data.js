@@ -1,4 +1,3 @@
-import image01 from "./components/LumiBlossomos/images/image01.jpg";
 import image02 from "./components/LumiBlossomos/images/image02.jpg";
 import image03 from "./components/LumiBlossomos/images/image03.jpg";
 
