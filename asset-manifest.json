@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-candle-store/static/css/main.7d1c7fd3.css",
+    "main.js": "/react-candle-store/static/js/main.ebec0b85.js",
+    "static/js/787.91a26548.chunk.js": "/react-candle-store/static/js/787.91a26548.chunk.js",
+    "static/media/mainimage.jpg": "/react-candle-store/static/media/mainimage.e20e0a6d729d3368b222.jpg",
+    "static/media/image00.jpg": "/react-candle-store/static/media/image00.0a0bc43f63184fded012.jpg",
+    "static/media/image02.jpg": "/react-candle-store/static/media/image02.002948f75cb7eb26e19b.jpg",
+    "static/media/image03.jpg": "/react-candle-store/static/media/image03.251e766fe21b17672cc7.jpg",
+    "static/media/reward.png": "/react-candle-store/static/media/reward.c3c727f155d0c7f98886.png",
+    "static/media/recycle.png": "/react-candle-store/static/media/recycle.9f47e9015e7d42c3041d.png",
+    "static/media/package.png": "/react-candle-store/static/media/package.fbe2d51594c326ab316e.png",
+    "index.html": "/react-candle-store/index.html",
+    "main.7d1c7fd3.css.map": "/react-candle-store/static/css/main.7d1c7fd3.css.map",
+    "main.ebec0b85.js.map": "/react-candle-store/static/js/main.ebec0b85.js.map",
+    "787.91a26548.chunk.js.map": "/react-candle-store/static/js/787.91a26548.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7d1c7fd3.css",
+    "static/js/main.ebec0b85.js"
+  ]
+}
